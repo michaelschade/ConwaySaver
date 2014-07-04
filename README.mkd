@@ -1,4 +1,4 @@
 Screen saver simulating [Conway's Game of Life](http://en.wikipedia.org/wiki/Conway's_Game_of_Life).
 Built with Objective-C for OS X. Have a demo:
 
-![demo.gif](Demo of Conway's Game of Life screensaver)
+![demo](https://raw.githubusercontent.com/michaelschade/ConwaySaver/master/demo.gif)
