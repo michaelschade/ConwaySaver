@@ -7,7 +7,11 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import "ConwayBoard.h"
+#import "ConwayCell.h"
 
 @interface ConwaySaverView : ScreenSaverView
+
+@property ConwayBoard *board;
 
 @end
