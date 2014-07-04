@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CAEB6661966AEF500306D29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAEB6651966AEF500306D29 /* Cocoa.framework */; };
+		4CAEB6681966AEF500306D29 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAEB6671966AEF500306D29 /* ScreenSaver.framework */; };
+		4CAEB6721966AEF500306D29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEB6701966AEF500306D29 /* InfoPlist.strings */; };
+		4CAEB6761966AEF500306D29 /* ConwaySaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEB6751966AEF500306D29 /* ConwaySaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4CAEB6621966AEF500306D29 /* ConwaySaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConwaySaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CAEB6651966AEF500306D29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4CAEB6671966AEF500306D29 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		4CAEB66A1966AEF500306D29 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4CAEB66B1966AEF500306D29 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4CAEB66C1966AEF500306D29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CAEB66F1966AEF500306D29 /* ConwaySaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConwaySaver-Info.plist"; sourceTree = "<group>"; };
+		4CAEB6711966AEF500306D29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CAEB6731966AEF500306D29 /* ConwaySaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConwaySaver-Prefix.pch"; sourceTree = "<group>"; };
+		4CAEB6741966AEF500306D29 /* ConwaySaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConwaySaverView.h; sourceTree = "<group>"; };
+		4CAEB6751966AEF500306D29 /* ConwaySaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConwaySaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CAEB65D1966AEF500306D29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEB6681966AEF500306D29 /* ScreenSaver.framework in Frameworks */,
+				4CAEB6661966AEF500306D29 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CAEB6571966AEF500306D29 = {
+			isa = PBXGroup;
+			children = (
+				4CAEB66D1966AEF500306D29 /* ConwaySaver */,
+				4CAEB6641966AEF500306D29 /* Frameworks */,
+				4CAEB6631966AEF500306D29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CAEB6631966AEF500306D29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEB6621966AEF500306D29 /* ConwaySaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CAEB6641966AEF500306D29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEB6651966AEF500306D29 /* Cocoa.framework */,
+				4CAEB6671966AEF500306D29 /* ScreenSaver.framework */,
+				4CAEB6691966AEF500306D29 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CAEB6691966AEF500306D29 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEB66A1966AEF500306D29 /* AppKit.framework */,
+				4CAEB66B1966AEF500306D29 /* CoreData.framework */,
+				4CAEB66C1966AEF500306D29 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4CAEB66D1966AEF500306D29 /* ConwaySaver */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEB6741966AEF500306D29 /* ConwaySaverView.h */,
+				4CAEB6751966AEF500306D29 /* ConwaySaverView.m */,
+				4CAEB66E1966AEF500306D29 /* Supporting Files */,
+			);
+			path = ConwaySaver;
+			sourceTree = "<group>";
+		};
+		4CAEB66E1966AEF500306D29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEB66F1966AEF500306D29 /* ConwaySaver-Info.plist */,
+				4CAEB6701966AEF500306D29 /* InfoPlist.strings */,
+				4CAEB6731966AEF500306D29 /* ConwaySaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4CAEB65E1966AEF500306D29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CAEB6611966AEF500306D29 /* ConwaySaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CAEB6791966AEF500306D29 /* Build configuration list for PBXNativeTarget "ConwaySaver" */;
+			buildPhases = (
+				4CAEB65C1966AEF500306D29 /* Sources */,
+				4CAEB65D1966AEF500306D29 /* Frameworks */,
+				4CAEB65E1966AEF500306D29 /* Headers */,
+				4CAEB65F1966AEF500306D29 /* Resources */,
+				4CAEB6601966AEF500306D29 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConwaySaver;
+			productName = ConwaySaver;
+			productReference = 4CAEB6621966AEF500306D29 /* ConwaySaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CAEB6581966AEF500306D29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Michael Schade";
+			};
+			buildConfigurationList = 4CAEB65B1966AEF500306D29 /* Build configuration list for PBXProject "ConwaySaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CAEB6571966AEF500306D29;
+			productRefGroup = 4CAEB6631966AEF500306D29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CAEB6611966AEF500306D29 /* ConwaySaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CAEB65F1966AEF500306D29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEB6721966AEF500306D29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		4CAEB6601966AEF500306D29 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CAEB65C1966AEF500306D29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAEB6761966AEF500306D29 /* ConwaySaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CAEB6701966AEF500306D29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAEB6711966AEF500306D29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CAEB6771966AEF500306D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4CAEB6781966AEF500306D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4CAEB67A1966AEF500306D29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConwaySaver/ConwaySaver-Prefix.pch";
+				INFOPLIST_FILE = "ConwaySaver/ConwaySaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		4CAEB67B1966AEF500306D29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConwaySaver/ConwaySaver-Prefix.pch";
+				INFOPLIST_FILE = "ConwaySaver/ConwaySaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CAEB65B1966AEF500306D29 /* Build configuration list for PBXProject "ConwaySaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEB6771966AEF500306D29 /* Debug */,
+				4CAEB6781966AEF500306D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CAEB6791966AEF500306D29 /* Build configuration list for PBXNativeTarget "ConwaySaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CAEB67A1966AEF500306D29 /* Debug */,
+				4CAEB67B1966AEF500306D29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CAEB6581966AEF500306D29 /* Project object */;
+}
