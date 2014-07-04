@@ -11,7 +11,25 @@
 		4CAEB6681966AEF500306D29 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CAEB6671966AEF500306D29 /* ScreenSaver.framework */; };
 		4CAEB6721966AEF500306D29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CAEB6701966AEF500306D29 /* InfoPlist.strings */; };
 		4CAEB6761966AEF500306D29 /* ConwaySaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEB6751966AEF500306D29 /* ConwaySaverView.m */; };
+		4CAEB67D1966AF8D00306D29 /* ConwaySaver.saver in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CAEB6621966AEF500306D29 /* ConwaySaver.saver */; };
+		4CAEB6841966AFD700306D29 /* ConwayBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAEB6821966AFD700306D29 /* ConwayBoard.h */; };
+		4CAEB6851966AFD700306D29 /* ConwayBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEB6831966AFD700306D29 /* ConwayBoard.m */; };
+		4CAEB6881966AFE100306D29 /* ConwayCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CAEB6861966AFE100306D29 /* ConwayCell.h */; };
+		4CAEB6891966AFE100306D29 /* ConwayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEB6871966AFE100306D29 /* ConwayCell.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4CAEB67C1966AF6D00306D29 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "/Users/michael/Library/Screen Savers";
+			dstSubfolderSpec = 0;
+			files = (
+				4CAEB67D1966AF8D00306D29 /* ConwaySaver.saver in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4CAEB6621966AEF500306D29 /* ConwaySaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConwaySaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +43,10 @@
 		4CAEB6731966AEF500306D29 /* ConwaySaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConwaySaver-Prefix.pch"; sourceTree = "<group>"; };
 		4CAEB6741966AEF500306D29 /* ConwaySaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConwaySaverView.h; sourceTree = "<group>"; };
 		4CAEB6751966AEF500306D29 /* ConwaySaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConwaySaverView.m; sourceTree = "<group>"; };
+		4CAEB6821966AFD700306D29 /* ConwayBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConwayBoard.h; sourceTree = "<group>"; };
+		4CAEB6831966AFD700306D29 /* ConwayBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConwayBoard.m; sourceTree = "<group>"; };
+		4CAEB6861966AFE100306D29 /* ConwayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConwayCell.h; sourceTree = "<group>"; };
+		4CAEB6871966AFE100306D29 /* ConwayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConwayCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +105,10 @@
 				4CAEB6741966AEF500306D29 /* ConwaySaverView.h */,
 				4CAEB6751966AEF500306D29 /* ConwaySaverView.m */,
 				4CAEB66E1966AEF500306D29 /* Supporting Files */,
+				4CAEB6821966AFD700306D29 /* ConwayBoard.h */,
+				4CAEB6831966AFD700306D29 /* ConwayBoard.m */,
+				4CAEB6861966AFE100306D29 /* ConwayCell.h */,
+				4CAEB6871966AFE100306D29 /* ConwayCell.m */,
 			);
 			path = ConwaySaver;
 			sourceTree = "<group>";
@@ -104,6 +130,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAEB6841966AFD700306D29 /* ConwayBoard.h in Headers */,
+				4CAEB6881966AFE100306D29 /* ConwayCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +147,7 @@
 				4CAEB65E1966AEF500306D29 /* Headers */,
 				4CAEB65F1966AEF500306D29 /* Resources */,
 				4CAEB6601966AEF500306D29 /* Rez */,
+				4CAEB67C1966AF6D00306D29 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -182,6 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CAEB6761966AEF500306D29 /* ConwaySaverView.m in Sources */,
+				4CAEB6851966AFD700306D29 /* ConwayBoard.m in Sources */,
+				4CAEB6891966AFE100306D29 /* ConwayCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
