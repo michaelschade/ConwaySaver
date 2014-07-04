@@ -15,7 +15,7 @@
 -(id)initWithCoordinates:(NSInteger)initRow withColumn:(NSInteger)initColumn {
     self.row = initRow;
     self.column = initColumn;
-    self.alive = drand48() > 0.92;
+    self.alive = drand48() > 0.72;
     return self;
 }
 

@@ -12,13 +12,13 @@
 
 @synthesize board;
 
-static CGFloat const scale = 30;
+static CGFloat const scale = 40;
 
 - (id)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
 {
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
-        [self setAnimationTimeInterval:1/1.4];
+        [self setAnimationTimeInterval:1/1.8];
     }
     return self;
 }
